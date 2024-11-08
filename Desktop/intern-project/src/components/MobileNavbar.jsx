@@ -1,4 +1,3 @@
-// src/components/MobileNavbar.jsx
 import React from "react";
 
 function MobileNavbar() {

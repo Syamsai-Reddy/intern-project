@@ -1,4 +1,3 @@
-// Import React and necessary icons from react-icons
 import { useState, useEffect } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 

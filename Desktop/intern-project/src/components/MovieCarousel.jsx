@@ -1,4 +1,3 @@
-// src/components/MovieCarousel.jsx
 import React, { useState } from "react";
 
 function MovieCarousel({ movies }) {
