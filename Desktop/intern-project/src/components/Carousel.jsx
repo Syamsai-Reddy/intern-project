@@ -30,7 +30,7 @@ const Carousels = () => {
   };
 
   return (
-    <div className="w-full flex justify-center items-center">
+    <div className="w-full flex justify-center items-center mb-8">
       <div className="relative w-4/5 overflow-hidden py-2 ">
         <div
           className="flex transition-transform duration-500 ease-in-out"
