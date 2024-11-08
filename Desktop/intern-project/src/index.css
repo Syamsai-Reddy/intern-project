@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* In your CSS file */
+/* @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+  
+/* 
+  .carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-content {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .carousel-button.left {
+    left: 16px;
+  }
+  
+  .carousel-button.right {
+    right: 16px;
+  } */
+  
+  .carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-content {
+    display: flex;
+    transition: transform 1.5s ease; 
+    
+  }
+  
+  .animate-scroll {
+    display: flex;
+    animation: scroll 20s linear infinite;
+  } 
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .carousel-button.left {
+    left: 16px;
+  }
+  
+  .carousel-button.right {
+    right: 16px;
+  }
+  
